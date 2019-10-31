@@ -8,6 +8,7 @@ from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
+from sklearn.externals import joblib 
 
 export_file_url = 'https://www.dropbox.com/s/5fyswtwvj0yyd0r/model.pkl?raw=1'
 export_file_name = 'model.pkl'
