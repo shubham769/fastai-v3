@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1_JohE1GkIN5HakK_Q6cWDaCCmFpQGzL_/view?usp=sharing'
-export_file_name = 'model.h5'
+export_file_url = 'https://www.dropbox.com/s/5fyswtwvj0yyd0r/model.pkl?dl=0'
+export_file_name = 'model.pkl'
 
 classes = ['Melanocytic nevi','Melanoma','Benign keratosis-like lesions ','Basal cell carcinoma','Actinic keratoses','Vascular lesions','Dermatofibroma']
 path = Path(__file__).parent
